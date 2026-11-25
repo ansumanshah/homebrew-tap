@@ -8,7 +8,7 @@ cask "noodle" do
   homepage "https://getnoodle.dev"
 
   depends_on arch: :arm64
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "Noodle.app"
   binary "#{appdir}/Noodle.app/Contents/Helpers/noodle"
