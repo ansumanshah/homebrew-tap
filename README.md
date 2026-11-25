@@ -1,14 +1,11 @@
-# NoodleApps Homebrew Tap
+# Homebrew tap
 
-Casks for [NoodleApps](https://noodleapps.com) developer tools.
+Casks for Ansuman Shah's Mac apps.
 
 ```sh
-brew tap ansumanshah/tap
-brew install --cask hakka
+brew install --cask ansumanshah/tap/noodle
 ```
 
-| Cask | App | Status |
-| --- | --- | --- |
-| `hakka` | [Hakka for macOS](https://github.com/ansumanshah/hakka) — network inspector + API client | first signed release pending |
-
-The cask lands here automatically with each release (`apps/hakka/Scripts/make_release.sh` in the hakka repo updates version + sha256). Until the first notarized build ships, `brew install` will report the cask as missing.
+| Cask | App |
+| --- | --- |
+| `noodle` | [Noodle](https://getnoodle.dev): Docker-compatible containers and local AI models on Apple silicon |
