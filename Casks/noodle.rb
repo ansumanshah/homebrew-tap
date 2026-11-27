@@ -1,12 +1,13 @@
 cask "noodle" do
-  version "26.11.2"
-  sha256 "299c047fcfe11c20d62b54d19952a7457266af5c6b2c8769ff948eaafc7b28aa" # set by update-cask.sh
+  version "26.11.3"
+  sha256 "bd8e2014632f6db6721dc265f72ce0340cb3168f057a960e7c511f6aa9933606" # set by update-cask.sh
 
   url "https://github.com/ansumanshah/noodle/releases/download/v#{version}/Noodle-#{version}.dmg"
   name "Noodle"
   desc "Docker-compatible container runtime and local models for macOS"
   homepage "https://getnoodle.dev"
 
+  auto_updates true
   depends_on arch: :arm64
   depends_on macos: :tahoe
 
