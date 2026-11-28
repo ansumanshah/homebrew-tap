@@ -1,6 +1,6 @@
 cask "noodle" do
-  version "26.11.6"
-  sha256 "c81a9b9180215ba7042a808d3bb08e67d0528a5047a5b97d57ff420b1f966532" # set by update-cask.sh
+  version "26.11.7"
+  sha256 "ab07d12b81c0fd6ea6df56b8e6c727989e5e9b57a8e3e1eb6fa6e5677cd55a1d" # set by update-cask.sh
 
   url "https://github.com/ansumanshah/noodle/releases/download/v#{version}/Noodle-#{version}.dmg"
   name "Noodle"
